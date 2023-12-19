@@ -1,0 +1,7 @@
+
+         <div style={{backgroundImage:`url(${slides[image].url})`}} className='w-80 h-80 bg-cover'></div>
+        <div style={{backgroundImage:`url(${slides[image+1].url})`}} className='w-80 h-80 bg-cover '></div>
+        <div style={{backgroundImage:`url(${slides[image+2].url})`}} className='w-80 h-80 bg-cover rounded-3xl scale-125'></div>
+        <div style={{backgroundImage:`url(${slides[image+3].url})`}} className='w-80 h-80 bg-cover '></div>
+        <div style={{backgroundImage:`url(${slides[image+4].url})`}} className='w-80 h-80 bg-cover '></div>
+        bg-[url("https://www.teahub.io/photos/full/73-736681_1920x1080-wallpaper-white-blue-gradient-linear-deep-electric.jpg")]

@@ -1,0 +1,20 @@
+#white{
+    background-color: rgb(36, 10, 232);
+    color: white;
+}
+#black{
+    background-color: white;
+    color: white;
+}
+.main{
+    background-image: url('http://getwallpapers.com/wallpaper/full/c/0/d/1155553-free-download-messi-wallpaper-1920x1080.jpg');
+    background-size:cover ;
+}
+.butn{
+    display: none;
+}
+.slider:hover{
+    .butn{
+        display: flex;
+    }
+}
