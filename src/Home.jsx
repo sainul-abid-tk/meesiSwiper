@@ -56,8 +56,8 @@ function Home() {
   return (
     <>
     <div style={{backgroundImage:`url(${slides[currentIndex].url})`}}  className='bg-cover flex flex-col h-screen  justify-center items-center  space-x-3 '>
-        <div style={{backgroundImage:`url(${slides[currentIndex].url})`}} className='w-[900px] h-[570px]   mt-10 bg-cover slider relative rounded-3xl flex flex-col justify-center'>
-        <div className='text-white text-2xl px-3 flex justify-between butn'>
+        <div style={{backgroundImage:`url(${slides[currentIndex].url})`}} id='slider' className='w-[900px] h-[570px]   mt-10 bg-cover relative rounded-3xl flex flex-col justify-center'>
+        <div id='butn' className='text-white text-2xl px-3 flex justify-between butn'>
         <ArrowCircleLeftIcon fontSize="large" className='cursor-pointer' onClick={prevImg}/>
         <ArrowCircleRightIcon fontSize="large" className='cursor-pointer' onClick={nextImg}/>
         </div>
